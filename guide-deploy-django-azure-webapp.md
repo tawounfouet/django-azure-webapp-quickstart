@@ -14,8 +14,15 @@ python3.9 -m venv .envazurewebapp
 # activate virtual environment
 source .envazurewebapp/bin/activate
 
+
+# install dependencies
+pip install -r requirements.txt
+
+
 # copy environment variables from sample file to .env file
 cp .env.sample .env
+
+
 
 
 
